@@ -1,0 +1,21 @@
+public class Main {/// Jose Angel Montes Peinado openBootCamp
+    public static void main(String[] args) {
+        suma3( 3,3,3);
+coche micoche = new coche();
+micoche.aumentarpuerta();
+System.out.println("Numero de puertas: " + micoche.puertas);
+    }
+    public static int suma3 (int a,int b, int c)
+    {
+     int resultant = a+b+c;
+     System.out.println("Resultado de la suma de 3 digitos: " + resultant);
+     return resultant;
+    }
+}
+class coche {
+    public int puertas =0;
+    public void aumentarpuerta ()
+    {
+     this.puertas ++;
+    }
+}
