@@ -1,0 +1,43 @@
+public class Main {////Jose Angel Montes Peinado
+    public static void main(String[] args) {
+        int numero = 0;
+        if (numero > 0){
+            System.out.println("Numero mayor a cero");
+        } else if (numero < 0) {
+            System.out.println("Numero menor a cero");
+        }
+        else{
+            System.out.println("Numero es cero");
+        }
+        int numerowhile =0;
+        while (numerowhile < 3){
+            System.out.println("Numero: " + numerowhile );
+            numerowhile++;
+        }
+        int numerodowhile =3;
+        do{
+            System.out.println("Numero do while: " + numerodowhile );
+        }while ( numerodowhile < 3);
+
+        for( int numerfor =0; numerfor <= 3 ; numerfor++) {
+            System.out.println("Numero for: " + numerfor );
+        }
+        var estacion ="Verano";
+        switch (estacion){
+            case("Verano"):
+                System.out.println("La estacion es: "+ estacion);
+                break;
+            case("Otoño"):
+                System.out.println("La estacion es: "+ estacion);
+                break;
+            case("Invierno"):
+                System.out.println("La estacion es: "+ estacion);
+                break;
+            case("Primavera"):
+                System.out.println("La estacion es: "+ estacion);
+                break;
+            default:
+                System.out.println("No concuerda con ninguna estacion");
+        }
+    }
+}
