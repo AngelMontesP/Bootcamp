@@ -1,0 +1,6 @@
+texto = "Hola Mundo"
+print (texto)
+Hola Mundo
+texto = "Texto modificado"
+print(texto)
+Texto modificado
