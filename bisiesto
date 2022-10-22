@@ -1,0 +1,9 @@
+# Angel Montes
+def bisiesto (bisiesto):
+        if((bisiesto%4)==0):
+            print("El año es bisiesto: ",bisiesto )
+        else:
+            print("El año no es bisiesto: ",bisiesto )
+print("Programa para identificar si el año es bisiesto o no")
+año =int(input("Capture años a revisar:"))
+bisiesto(año)
